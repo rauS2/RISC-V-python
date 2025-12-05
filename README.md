@@ -10,6 +10,13 @@ Este codigo contem a implementação de um simulador de um processador RISC-V 32
 
 * Linguagem: Python
 
+<div align="center">
+  <img src="auxiliares/DiagramaUML.png" alt="Diagrama UML" width="600"/>
+  <br>
+  <em>Figura 1: Estrutura de Classes do Simulador</em>
+</div>
+<br>
+
 ## Como Executar
 Basta iniciar o arquivo **main.py** para rodar com o codigo default
 
@@ -21,7 +28,11 @@ O ciclo de funcionamento do simulador imita um processador RISC-V real:
 2. O ciclo de busca padrão é executado de forma contínua (sem interrupções no fluxo básico).
 3. Segue-se para a decodificação e execução conforme a especificação da arquitetura.
 
-Ciclo_de_busca.png
+<div align="center">
+  <img src="auxiliares/Ciclo_de_Busca.png" alt="Ciclo de Busca" width="400"/>
+  <br>
+  <em>Figura 2: Fluxo simplificado do Ciclo de Busca e Execução</em>
+</div>
 
 ## Funcionalidades Implementadas
 
