@@ -1,7 +1,7 @@
 # Simulador de Processador RISC-V (RV32I)
 Simulador do funcionamento de um processador RISC V em python
 ## Autores
-* Raul Santos da Silva - RA: 8883414
+* Raul Santos da Silva - RM: 8883414
 
 Projeto final da disciplina de Organização de Computadores - Universidade Católica de Santos (UniSantos).
 
