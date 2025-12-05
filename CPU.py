@@ -74,16 +74,10 @@ class CPU:
             addr = self.correcao_dtamanho(self.regs[rs1] + imm_i)
         
             if funct3 == 0x0: # LB (Load Byte)
-                val = self.barramento.leia(addr, 8)
-                if (val & 0x80) != 0: 
-                    val -= 0x100
-                self.regs[rd] = self.correcao_dtamanho(val)
+                self.barramento.leia(self.correcao_dsinal(addr), 8)
 
             elif funct3 == 0x1: # LH (Load Half - Signed)
-                val = self.barramento.leia(addr, 16)
-                if (val & 0x8000) != 0: 
-                    val -= 0x10000
-                self.regs[rd] = self.correcao_dtamanho(val)
+                self.barramento.leia(self.correcao_dsinal(addr), 16)
 
             elif funct3 == 0x2: # LW (Load Word)
                 self.regs[rd] = self.barramento.leia(addr, 32)
