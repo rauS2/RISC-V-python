@@ -95,6 +95,6 @@ O simulador lê periodicamente a região da VRAM (0x80000) e exibe os caracteres
 O codigo conta com um programa de teste dentro do **main.py**
 Esse codigo se traduz para um codigo em **python**:
 
-[https://github.com/rauS2/RISC-V-python/blob/8d89097e770421efc2b8f8cdd79a4e2ab11fdea2/simulacao.py#L9C1-L9C2]
+[[https://github.com/rauS2/RISC-V-python/blob/8d89097e770421efc2b8f8cdd79a4e2ab11fdea2/simulacao.py#L9C1-L9C2]](https://github.com/rauS2/RISC-V-python/blob/86184a9848a3419b81b47d8ebcb35c1113b94dfc/simulacao.py#L1-L9)
 
 
