@@ -71,7 +71,7 @@ Abaixo, a lista completa das instruções implementadas no decodificador, organi
 | **`0x6F`** | - | - | `JAL` | J | Jump & Link |
 
 ### 2. Barramento
-Dentro do codigo implementado um barramento que simula o funcionamento dos três tipos de barramentos:
+O código implementa uma única função que simula as operações dos três barramentos:
 * Dados
 * Endereço
 * Controle
