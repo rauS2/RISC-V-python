@@ -71,7 +71,7 @@ class CPU:
         
         # Opcode 0b0000011 - Tipo I (LOAD)
         if opcode == 0x03: 
-            addr = self.regs[rs1] + imm_i
+            addr = self.correcao_dtamanho(self.regs[rs1] + imm_i)
         
             if funct3 == 0x0: # LB (Load Byte)
                 val = self.barramento.leia(addr, 8)
