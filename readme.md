@@ -4,7 +4,8 @@ Simulador do funcionamento de um processador RISC V em python
 * Raul Santos da Silva - RM: 8883414
 
 Projeto final da disciplina de Organização de Computadores - Universidade Católica de Santos (UniSantos).
-
+LINK PARA O VIDEO DO YOUTUBE:
+https://youtu.be/1lVfVQvKvf8?si=S4oTBvlEocv6uWtC
 ## Sobre o Projeto
 Este codigo contem a implementação de um simulador de um processador RISC-V 32bits I, versão do processador de 32 bits focada em instruções de numeros inteiros, **python**.
 
